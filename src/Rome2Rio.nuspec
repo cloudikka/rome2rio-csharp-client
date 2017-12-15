@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Rome2Rio</id>
+    <version>1.0.0.0</version>
+    <authors>Petr Šrámek</authors>
+    <owners>Petr Šrámek</owners>
+    <licenseUrl>http://cloudikkanuget.azurewebsites.net/</licenseUrl>
+    <projectUrl>http://cloudikkanuget.azurewebsites.net/</projectUrl>
+    <iconUrl>http://cloudikkanuget.azurewebsites.net/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Portable class library with client and data classes for Rome2Rio</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>rome2rio windows phone windows silverlight universal apps UWP xamarin</tags>
+    <dependencies>
+      <group>
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Rome2Rio\bin\$configuration$\Rome2Rio.dll" target="lib" />
+  </files>
+</package>
